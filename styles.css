@@ -29,7 +29,7 @@ body {
 
 .hero-section {
     padding: 128px;
-    gap: 8px;
+    gap: 32px;
     justify-content: flex-start;
 }
 
@@ -49,6 +49,12 @@ body {
 .hero-desc {
     font-size: 18px;
     width: 500px;
+}
+
+.hero-image {
+    width: auto;
+    height: 500px;
+    flex: auto;
 }
 
 .sign-up {
@@ -112,6 +118,8 @@ body {
 .card img {
     border: 3px solid #3882F6;
     border-radius: 10px;
+    width: 150px;
+    height: 150px;
 }
 
 .card div {
@@ -166,4 +174,10 @@ body {
 
 .white-border {
     border-color: #F9FAF8;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }

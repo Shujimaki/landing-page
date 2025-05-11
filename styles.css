@@ -15,6 +15,7 @@ body {
 
 .header,
 .hero-section,
+.cta-section,
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -138,4 +139,31 @@ body {
 .quote-author {
     font-weight: bold;
     text-align: right;
+}
+
+
+.cta-section {
+    background-color: #3882F6;
+    border-radius: 4px;
+    display: flex;
+    margin: 128px auto;
+    padding: 64px 128px;
+    gap: 64px;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.white-border {
+    border-color: #F9FAF8;
 }

@@ -1,3 +1,19 @@
 body {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.hero-section,
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+}
+
+.title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
 }
